@@ -1,0 +1,1 @@
+PART_NAME = 'Náhradní díly'
