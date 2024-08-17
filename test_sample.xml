@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export_full date="2024-01-01 01:01:01" version="20140101">
+	<items>
+		<item code="0001" image="0001.jpg" imageDate="2024-01-01" name="Item_name_1" brandId="1" brand="XXX" czk="20.00">
+			<descriptions>
+				<description title="Charakteristika" order="1">&lt;p&gt;Dummy Des;/p&gt;</description>
+			</descriptions>
+		</item>
+		<item code="0002" image="0002.jpg" imageDate="2024-01-01" name="Item_name_2" brandId="2" brand="YYY" czk="40.00">
+			<eans>
+				<ean code="123000123" unit="ks" isDefault="true" />
+			</eans>
+			<descriptions>
+				<description title="Des1" order="1">&lt;p&gt;Dummy Des&lt;/p&gt;</description>
+				<description title="Des2" order="3">&lt;p&gt;Dummy Des&lt;/p&gt;</description>
+			</descriptions>
+			<specs>
+				<spec paramId="5" name="Typ">Spec_1</spec>
+			</specs>
+			<attachments>
+				<attachment name="Manuály" order="1">
+					<item name="Manuál EN, DE, FR" type="f" size="" hash="" src="" />
+				</attachment>
+			</attachments>
+			<gallery>
+				<image ref="0002_1.jpg" title="" size="222797" hash="" />
+			</gallery>
+			<parts>
+				<part categoryId="1" name="Náhradní díly" order="1">
+					<item code="0003" name="Replace_parts_1" />
+				</part>
+				<part categoryId="2" name="Tuningové díly" order="2">
+					<item code="0004" name="Tune_part_1" />
+				</part>
+			</parts>
+		</item>
+	</items>
+</export_full>
